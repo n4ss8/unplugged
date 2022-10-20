@@ -264,6 +264,7 @@ footer .copyright {
 /* ------------- Mobile Styles- Homepage ------------*/
 /* Hero area */
   .hero-area {
+    background: url(../img/unplugged1.jpg);
     background-size: cover;
     min-height: 500px;
     background-position: center;
