@@ -361,70 +361,55 @@
   /* ==========================================================================
      About Page
      ========================================================================== */
+     .mission-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 20px;
+    }
   
-  .mission {
-    background-color: #527158;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
+    .mission-content p {
+      width: 45%;
+    }
   
-  .contact-section {
-    background-color: #2a423a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
+    .map figure {
+      padding-bottom: 45.5%;
+    }
+    
+    .contact-section .content-wrapper h2 {
+      width: 80%;
+    }
   
-  .contact-content p {
-    margin: 0;
-  }
-  .map-container {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-  }
-  .map-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+    .contact-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .contact-content h4 {
+      font-size: 1.5em;
+    }
   /* ==========================================================================
      FAQ Page
      ========================================================================== */
   
-  .faq {
-    background-color: #527158;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
+     .faq .content-wrapper {
+      justify-content: space-between;
+    }
   
-  .faq .content-wrapper {
-    margin: 50px 0 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
+    .faq-content {
+      flex-basis: 45%;
+    }
   
-  .faq h2 {
-    margin-bottom: 40px;
-    line-height: 1;
-  }
+    .faq h2 {
+      width: 100%;
+    }
   
-  .faq-content {
-    margin-bottom: 50px;
-  }
-  
-  .faq-content h4 {
-    line-height: 1.333;
+    .faq h4,
+    .faq p {
+        font-size: .875em;
+        line-height: 1.125;
+    }
   }
   
   /* ==========================================================================
@@ -777,6 +762,10 @@
     /* ==========================================================================
     About Page
     ========================================================================== */
+    
+    .map figure {
+      padding-bottom: 37.5%;
+    }
   
     .mission h2,
     .contact-section .content-wrapper h2 {
@@ -787,7 +776,6 @@
     .contact-content h4 {
       font-size: 1.875em;
     }
-  
     /* ==========================================================================
     FAQ Page
     ========================================================================== */
