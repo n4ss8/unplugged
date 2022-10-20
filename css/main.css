@@ -87,10 +87,71 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+ 
+html {
+  font-size: 16px;
+}
+ 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+ 
+ul, 
+ol {
+ list-style-type: none;
+ margin: 12px;
+ padding: 0;
+}
+ 
+a {
+color: #e2e3ed;
+text-decoration: none;
+}
+ 
+h2 {
+ font-family: 'Poppins', sans-serif;
+ font-size: 1.75em;
+ font-weight: 500;
+ margin: 0;
+}
+ 
+h3, 
+h4 {
+ font-family: 'Poppins', sans-serif;
+ font-size: 1.2em;
+ font-weight: 500;
+ margin: 20px 0;
+}
+ 
+p {
+	font-sizel 0.875em;
+  line-height: 1.125em;
+}
+ 
+img {
+ width: 100%;
+}
+ 
+figure {
+ margin: 0;
+}
+ 
+address {
+ font-syle: normal;
+}
+ 
+.content-wrapper {
+ width: 90%;
+ margin: 45px 0;
+}
+
 /* -------------- Base Header - Footer styles --------------- */
 
 header, 
 footer {
+  background-color: #202322;
 display:flex; 
 justify-content: center;
 align-items: center;
@@ -98,6 +159,7 @@ flex-flow: row wrap;
 }
 
 /* Header styles */
+
 header {
   padding: 15px 0;
 }
@@ -126,6 +188,7 @@ header figure {
 header nav {
   display: flex;
   justify-content: space-around;
+  text-transform: uppercase;
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
@@ -136,6 +199,7 @@ header nav ul {
   justify-content: space-around;
   width: 100%;
 }
+
 /* footer Styles */
 
 footer {
@@ -166,11 +230,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 40px;
   width: 40px;
+  border-radius: 50%;
+}
+footer .social-icons p i {
+  font-size: 1.31em;
+}
 }
 footer .copyright {
   margin: 20px 0;
@@ -178,12 +248,21 @@ footer .copyright {
 /* ------------- Mobile Styles- Homepage ------------*/
 /* Hero area */
   .hero-area {
+    background-size: cover;
+    min-height: 500px;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
   }
   .hero-area h1 {
     margin-top: 0;
+    line-height: 1.2em;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 2.25em;
+    font-weight: 500;
+    margin-top: 0;
+
   }
 
 
@@ -198,7 +277,11 @@ aside {
 aside h3 {
   margin-top: 0;
 }
-aside f.form {
+
+aside .form-description h3 {
+font-size: 1.125em;
+}
+aside .form {
   margin-top: 30px;
 }
 /* Features */
